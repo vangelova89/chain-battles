@@ -1,0 +1,63 @@
+Arguments: 
+  /usr/local/Cellar/node/18.2.0/bin/node /usr/local/bin/yarn add dotenc
+
+PATH: 
+  /Users/val/opt/anaconda3/bin:/Users/val/opt/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  18.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/dotenc: Not found
+      at params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1344:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "chain-battles",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vangelova89/chain-battles.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/vangelova89/chain-battles/issues"
+    },
+    "homepage": "https://github.com/vangelova89/chain-battles#readme",
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.6",
+      "@nomiclabs/hardhat-waffle": "^2.0.3",
+      "chai": "^4.3.6",
+      "ethereum-waffle": "^3.4.4",
+      "ethers": "^5.6.7",
+      "hardhat": "^2.9.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
